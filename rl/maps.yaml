@@ -1,0 +1,24 @@
+# Map lists for the RL experiments, fixed 12 Nov 2026 BEFORE any RL training (the brief: never tune
+# on the held-out list, never change it after training starts). Beatmap (difficulty) ids.
+
+heldout:
+  # Experiment 1 evaluation (HD) and every forgetting check (NoMod): the in-band test maps
+  # (configs/splits/test/4_star..6_star), disjoint from BC training (train split) and from RL training
+  # (Experiment 1 trains on the train split, Experiment 2 on its three maps, which are 8+ stars).
+  # Never used for selection or tuning anywhere in the project.
+  maps: [2347578, 2014470, 4912305, 207659, 127846, 2651414, 1946909, 782310, 1697722, 1474956, 794670, 367175, 655794, 2615748, 2664875, 1309290, 3962022, 2731544, 2635238]
+
+exp1_train:
+  # Experiment 1 conditions B and C train on the BC training maps rendered with HD.
+  split: train
+
+exp2:
+  # Experiment 2: one PPO fine-tune per map, trained and evaluated on that map (specialisation).
+  maps: [4952940, 555797, 4377326]     # jump, stream, tech (the brief's order)
+
+
+exp2_transfer:
+  # Exp 2 transfer check (addition, eval only): every test map in the 8 and 9 star bands except the
+  # two Exp 2 training maps (4952940, 4377326). Fixed before any evaluation on it. By style:
+  # jumps 4967007 4235907 4669413 3100786 4618179; streams 2654458 4203275 4798513 4904540; tech 1785659
+  maps: [4967007, 2654458, 4203275, 1785659, 4235907, 4669413, 4798513, 3100786, 4904540, 4618179]

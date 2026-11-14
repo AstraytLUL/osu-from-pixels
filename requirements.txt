@@ -1,0 +1,12 @@
+torch
+numpy
+pyyaml
+ossapi
+osrparse
+python-dotenv
+huggingface_hub
+pytest
+tqdm
+Pillow                          # eval/video.py: frames, .gif footage
+imageio-ffmpeg                  # eval/video.py: .mp4 footage (bundles ffmpeg)
+matplotlib                      # eval/report_figures.py: report figures

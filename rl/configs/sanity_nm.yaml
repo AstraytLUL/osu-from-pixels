@@ -1,0 +1,36 @@
+# Sanity runs before the experiments (the brief): NoMod PPO on the training maps.
+#   python -m rl.ppo --config rl/configs/sanity_nm.yaml --lr-scale 0 --total-steps 100000   # must reproduce BC
+#   python -m rl.ppo --config rl/configs/sanity_nm.yaml                                      # must not degrade BC
+# Curves on the val maps (not held out: the val split is where BC selection already happens).
+name: sanity_nm
+bc_checkpoint: runs/baseline_cap_seed0/best.pt
+mods: NM
+train_maps: train_split
+curve_maps: split:val
+curve_mods: [NM]
+eval_every_steps: 100000
+total_steps: 300000
+
+n_envs: 16
+rollout_steps: 128
+segment_frames: 900
+
+aim_std_px: 8.0
+key_std: 0.5
+
+actor_lr: 2.0e-5
+critic_lr: 1.0e-4
+clip: 0.1
+target_kl: 0.01
+gamma: 0.989
+gae_lambda: 0.95
+kl_coef: 0.1
+kl_decay_frac: 1.0
+epochs: 4
+minibatch: 256
+max_grad_norm: 0.5
+
+warmup_max_iters: 30
+warmup_patience: 3
+warmup_min_gain: 0.01
+log_every: 5

@@ -1,0 +1,10 @@
+# HR (training top-up, flipped to canonical later) and HD (held back for Stage 3) on train maps:
+# 5 replays per map and mod set. HR shares the per-player cap with NM.
+mod_sets: [HR, HD]
+accuracy_min: 0.98
+per_map: 5
+per_player: 3
+cap_groups: [[NM, HR]]
+leaderboard_limit: 100
+leaderboard_sleep: 4
+download_sleep: 7

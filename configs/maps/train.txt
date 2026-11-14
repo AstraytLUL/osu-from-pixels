@@ -1,0 +1,43 @@
+# train maps, from configs/maps_v1.yaml
+1498091  # tech: succducc - me & u [toynathan's extra] 5.45*
+3013524  # tech: inabakumori - Lost Umbrella [kanor's Insane] 4.73*
+2145994  # tech: Silentroom - Protoflicker [Xenon's Insane] 4.83*
+1553356  # tech: Chito (CV: Minase Inori), Yuuri (CV: Kubo Yurika) - More One Night (Assertive Hardcore Bootleg) [Collab] 6.2*
+1773386  # tech: Culprate - Aurora [Expert] 5.87*
+1939172  # tech: 455-38B - G e n g a o z o - f o o n [Another] 5.5*
+4673320  # tech: Sasuke Haraguchi feat. Kasane Teto - Igaku [Crissa's Insane] 4.88*
+3856244  # tech: SEREBRO - MALO TEBYA (Sped Up Ver.) [ZYZZBASS] 6.71*
+4483942  # tech: LV.4 - Burning Star [Dada's Extra] 6.75*
+4826296  # tech: irohaRingo feat. flower - Why I hate you [Galaxy's Extra] 5.74*
+5238581  # tech: Koto Spirit - Locus of Hexagram [Insane] 4.72*
+5238823  # tech: Akiri - Vespera Stella [Insane] 5.05*
+4091822  # tech: James Landino - Aresene's Bazaar [Insane] 5.4*
+5297705  # tech: takehirotei - Haiboku no Altra Vita [Expert] 6.1*
+1033154  # streams: 9mm Parabellum Bullet - Inferno [Agonizing Insane] 4.89*
+847314  # streams: Feint - Tower Of Heaven (You Are Slaves) [Extra] 5.12*
+676172  # streams: ALiCE'S EMOTiON - Dark Flight Dreamer [Dreamer] 6.32*
+1255789  # streams: Linked Horizon - Shinzou o Sasageyo! [TV Size] [Titan] 5.82*
+366142  # streams: UPLIFT SPICE - Omega Rhythm [lightr's Insane] 5.21*
+446612  # streams: Warak - REANIMATE [N a s y a's Another] 4.53*
+1027542  # streams: S3RL feat Krystal - R4V3 B0Y [3XTR4] 5.44*
+507728  # streams: Natsume Chiaki - Hanairo Biyori [wkyik's Insane] 5.19*
+1632673  # streams: VINXIS - Sidetracked Day (Short Ver.) [A r M i N's Extra] 5.89*
+1796684  # streams: LiSA - ADAMAS (TV Size) [Insane] 5.18*
+1571863  # streams: Knife Party & Tom Morello - Battle Sirens (RIOT Remix) [Extra] 5.88*
+1649990  # streams: THE ORAL CIGARETTES - ReI [NiNo's Insane] 4.84*
+1863291  # streams: HyuN - Illusion of Inflict [Kaliboy's Insane] 4.86*
+1625592  # streams: Nanamori-chu * Goraku-bu - Happy Time wa Owaranai [Shiinoha's Insane] 4.87*
+869197  # jumps: KANA-BOON - Silhouette [Kage] 5.19*
+2090844  # jumps: Mrs. GREEN APPLE - Inferno (TV Size) [Fire Force] 4.87*
+2201460  # jumps: ViViD - HIKARI (TV Size) [browiec's Wisdom] 5.95*
+1619555  # jumps: Aitsuki Nakuru - Monochrome Butterfly [Uniform] 5.83*
+962800  # jumps: HO-KAGO TEA TIME - Kira Kira Days [Mamayu's Insane!!] 4.72*
+1932649  # jumps: Fujiwara Chika (CV: Kohara Konomi) - Chikatto Chika Chika (TV Size) [Hazu's Expert] 5.0*
+2044368  # jumps: Oomori Seiko - JUSTadICE (TV Size) [Reform's Expert] 5.03*
+1385396  # jumps: Panda Eyes - ILY [Fanteer's Expert] 5.2*
+1257298  # jumps: Kenshi Yonezu - Peace Sign (TV edit.) [Plus Ultra] 5.56*
+1570203  # jumps: toby fox - Last Goodbye [Determination] 6.32*
+1810150  # jumps: the peggies - Kimi no Sei (TV Size) [Extra] 5.44*
+846105  # jumps: toby fox - MEGALOVANIA [Burn] 6.06*
+1897577  # jumps: Koda Kumi - Guess Who Is Back (TV Size) [Nevo's Expert] 5.29*
+898575  # jumps: Seiryu - BLUE DRAGON [grumd's Extra] 5.96*

@@ -1,0 +1,104 @@
+# val, 4_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: val
+  band: 4_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 1038400
+  beatmapset_id: 486142
+  artist: cYsmix
+  title: Fright March
+  version: Insane
+  mapper_id: 1467715
+  creator: Gero
+  stars: 4.66
+  bpm: 160.0
+  drain_s: 142
+  cs: 4.0
+  ar: 8.5
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 17
+    streams: 80
+    jumps: 0
+  playcount: 2241652
+  available:
+    NM:
+      acc98: 59
+      acc95: 59
+    DT:
+      acc98: 100
+    HR:
+      acc98: 2
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: val
+  pilot: false
+- beatmap_id: 814293
+  beatmapset_id: 371128
+  artist: Station Earth
+  title: Cold Green Eyes ft. Roos Denayer
+  version: Divine
+  mapper_id: 3495259
+  creator: Bearizm
+  stars: 4.89
+  bpm: 174.0
+  drain_s: 121
+  cs: 4.0
+  ar: 9.2
+  od: 8.5
+  style: jumps
+  style_votes:
+    tech: 78
+    streams: 58
+    jumps: 595
+  playcount: 22343692
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 10
+    HR:
+      acc98: 8
+    HD:
+      acc98: 83
+  relaxation: 0
+  split: val
+  pilot: false
+- beatmap_id: 1262832
+  beatmapset_id: 596704
+  artist: ClariS
+  title: Hitorigoto -TV MIX-
+  version: Soliloquy
+  mapper_id: 3230571
+  creator: Doormat
+  stars: 4.95
+  bpm: 165.0
+  drain_s: 86
+  cs: 4.0
+  ar: 9.0
+  od: 8.5
+  style: jumps
+  style_votes:
+    tech: 44
+    streams: 0
+    jumps: 182
+  playcount: 16201110
+  available:
+    NM:
+      acc98: 81
+      acc95: 81
+    DT:
+      acc98: 5
+    HR:
+      acc98: 6
+    HD:
+      acc98: 15
+  relaxation: 0
+  split: val
+  pilot: false

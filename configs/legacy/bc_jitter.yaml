@@ -1,0 +1,29 @@
+# The baseline plus cursor jitter: plain BC drifts off the playfield in closed-loop play (epoch 4
+# of bc_baseline: cursor at the edge 33% of the time), because it never saw an off-track cursor.
+name: bc_jitter
+seed: 0
+data:
+  map_lists: [configs/legacy/maps/maps_v1.yaml]   # the v1 maps only, as these runs trained
+  train_mods: [NM, HR]            # manifest `mods` values used for training
+  canonical_hr: true              # HR replays flipped back to NoMod geometry (data/dataset.py)
+  window: 20                      # frames per sample (k); ablated over 5/10/20/40
+  cursor_jitter: 48               # px; shift the cursor history in half the samples, learn to recover
+  cursor_channel: false           # true: the cursor on its own channels, not drawn into the map
+model:
+  features: 512                   # size of the CNN's feature vector
+train:
+  batch_size: 256
+  epochs: 20
+  samples_per_epoch: 500000       # windows drawn per epoch (the train split has ~4.5M)
+  lr: 3.0e-4                      # needs the ".0": PyYAML reads 3e-4 as a string
+  weight_decay: 0.01
+  move_weight: 1.0
+  press_weight: 1.0
+  held_weight: 1.0
+  press_pos_weight: 10.0          # presses are ~4% of frames
+  device: auto                    # auto | cuda | cpu
+  num_workers: 8                  # DataLoader processes (~1,100 windows/s each)
+eval:
+  every: 1                        # epochs between closed-loop validations
+  val_maps: null                  # null = all NoMod val maps; a number = only the first n (faster)
+  press_threshold: 0.5            # press probability above which the policy clicks

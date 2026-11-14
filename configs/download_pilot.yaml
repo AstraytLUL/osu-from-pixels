@@ -1,0 +1,10 @@
+# Pilot download (configs/maps/pilot.txt): NoMod only, enough to start the BC baseline before the
+# Oct 31 gate. Same filters and spacing as configs/download.yaml.
+mod_sets: [NM]
+accuracy_min: 0.98
+per_map: 10
+per_player: 3
+cap_groups: [[NM, HR]]
+leaderboard_limit: 100
+leaderboard_sleep: 4
+download_sleep: 7

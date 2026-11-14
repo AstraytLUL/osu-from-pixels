@@ -1,0 +1,233 @@
+# test, 5_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: test
+  band: 5_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  - data/find_test_maps.py (2026-11-09)
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 655794
+  beatmapset_id: 83560
+  artist: DJ S3RL
+  title: T-T-Techno (feat. Jesskah)
+  version: Technonationalism
+  mapper_id: 515967
+  creator: nold_1702
+  stars: 5.99
+  bpm: 175.0
+  drain_s: 162
+  cs: 3.9
+  ar: 9.1
+  od: 8.3
+  style: tech
+  style_votes:
+    tech: 35
+    streams: 1
+    jumps: 0
+  playcount: 1880608
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 2
+    HR:
+      acc98: 67
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 367175
+  beatmapset_id: 128645
+  artist: M2U feat. Guriri
+  title: Magnolia
+  version: AngelHoney's ExtrA
+  mapper_id: 104401
+  creator: -kevincela-
+  stars: 5.97
+  bpm: 160.0
+  drain_s: 132
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  style: tech
+  style_votes:
+    tech: 21
+    streams: 5
+    jumps: 1
+  playcount: 828261
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 4
+    HR:
+      acc98: 19
+    HD:
+      acc98: 85
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 1697722
+  beatmapset_id: 807850
+  artist: THE ORAL CIGARETTES
+  title: Mou Ii kai?
+  version: Divine's Insane
+  mapper_id: 6599570
+  creator: Nevo
+  stars: 5.41
+  bpm: 192.0
+  drain_s: 84
+  cs: 4.0
+  ar: 9.2
+  od: 8.5
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 57
+    jumps: 28
+  playcount: 4227282
+  available:
+    NM:
+      acc98: 26
+      acc95: 26
+    DT:
+      acc98: 10
+    HR:
+      acc98: 7
+    HD:
+      acc98: 28
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 1474956
+  beatmapset_id: 623924
+  artist: Nogizaka46
+  title: Yubi Bouenkyou ~Anime-ban~
+  version: ~A r M i N's Adventure~
+  mapper_id: 5115995
+  creator: Nevo
+  stars: 5.5
+  bpm: 180.0
+  drain_s: 85
+  cs: 4.0
+  ar: 9.3
+  od: 8.8
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 115
+  playcount: 8823825
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 45
+    HR:
+      acc98: 14
+    HD:
+      acc98: 27
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 794670
+  beatmapset_id: 361740
+  artist: Agnete Kjolsrud
+  title: Get Jinxed
+  version: Master
+  mapper_id: 4098393
+  creator: Tarrasky
+  stars: 5.63
+  bpm: 180.0
+  drain_s: 117
+  cs: 4.0
+  ar: 9.3
+  od: 8.7
+  style: jumps
+  style_votes:
+    tech: 3
+    streams: 0
+    jumps: 85
+  playcount: 5831402
+  available:
+    NM:
+      acc98: 52
+      acc95: 52
+    DT:
+      acc98: 47
+    HR:
+      acc98: 26
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 1946909
+  beatmapset_id: 931452
+  artist: HAG
+  title: Colorful
+  version: MiracleE's Expert
+  mapper_id: 6629599
+  creator: Sotarks
+  stars: 5.03
+  bpm: 192.0
+  drain_s: 125
+  cs: 3.6
+  ar: 9.2
+  od: 8.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 56
+  playcount: 3680460
+  available:
+    NM:
+      acc98: 97
+      acc95: 97
+    DT:
+      acc98: 70
+    HR:
+      acc98: 9
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 782310
+  beatmapset_id: 355322
+  artist: nekodex
+  title: circles!
+  version: insane!
+  mapper_id: 3178418
+  creator: pishifat
+  stars: 5.17
+  bpm: 184.0
+  drain_s: 135
+  cs: 4.2
+  ar: 9.0
+  od: 8.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 74
+    jumps: 8
+  playcount: 1943013
+  available:
+    NM:
+      acc98: 93
+      acc95: 93
+    HR:
+      acc98: 21
+    HD:
+      acc98: 99
+    DT:
+      acc98: 22
+  relaxed: []
+  pilot: false
+  split: test

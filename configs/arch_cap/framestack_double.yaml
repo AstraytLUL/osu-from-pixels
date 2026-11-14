@@ -1,0 +1,38 @@
+# configs/arch/framestack_double.yaml with validation under the speed cap alone (no landing noise), like
+# configs/baseline_cap.yaml: retrained 9 Nov so the variants are selected as the headline model is.
+# Architecture experiment (docs/architectures.md): Size control: the baseline with twice the channels in every layer (~7M parameters vs
+# 3.4M). Separates "a better architecture" from "a bigger network".
+# Everything except `name` and `model` is configs/baseline.yaml unchanged, so a difference in
+# results is the architecture's. Seeds: python -m train.bc --config <this> --seed 0|1|2
+name: framestack_double_cap
+seed: 0
+data:
+  train_mods: [NM, HR]            # manifest `mods` values used for training
+  canonical_hr: true              # HR replays flipped back to NoMod geometry (data/dataset.py)
+  window: 20                      # frames per sample (k); ablated over 5/10/20/40
+  cursor_jitter: 48               # px; shift the cursor history in half the samples, learn to recover
+  cursor_channel: false           # the cursor drawn into the map frames
+  map_lists: [configs/splits]      # data/splits.py: train = v1 + spinner maps; val = v1 val
+model:
+  backbone: framestack
+  width: 2.0                      # channels x2
+  features: 512                   # size of the CNN's feature vector
+  aim: absolute                   # relative (a move from the cursor) | absolute (the next position)
+train:
+  batch_size: 256
+  epochs: 20
+  samples_per_epoch: 500000       # windows drawn per epoch (the train split has ~4.5M)
+  lr: 3.0e-4                      # needs the ".0": PyYAML reads 3e-4 as a string
+  weight_decay: 0.01
+  move_weight: 1.0
+  press_weight: 1.0
+  held_weight: 1.0
+  press_pos_weight: 10.0          # presses are ~4% of frames
+  device: auto                    # auto | cuda | mps (a Mac) | cpu
+  num_workers: 8                  # DataLoader processes (~1,100 windows/s each)
+eval:
+  every: 1                        # epochs between closed-loop validations
+  val_maps: null                  # null = all NoMod val maps; a number = only the first n (faster)
+  press_threshold: 0.5            # press probability above which the policy clicks
+  max_step: 75                    # the speed cap (eval/motor.py CAP): px per frame
+  aim_noise: 0                    # no landing noise

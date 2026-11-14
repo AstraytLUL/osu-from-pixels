@@ -1,0 +1,9 @@
+# Settings for data/download.py. See the project proposal "Method / Data" and docs/data_collection.md.
+mod_sets: [NM, HR, HD, DT]    # leaderboard filters; NM + HR train, HD Stage 3, DT test-only
+accuracy_min: 0.98
+per_map: 10                   # replays kept per map per mod set
+per_player: 3                 # replays kept per player across all maps, per cap group
+cap_groups: [[NM, HR]]        # mod sets sharing one per-player cap (both train); others get their own
+leaderboard_limit: 100        # scores per leaderboard call (API max); spare candidates for the caps
+leaderboard_sleep: 4          # seconds between leaderboard calls (Cloudflare 429s after ~7 quick calls)
+download_sleep: 7             # seconds between replay downloads (docs/data_collection.md, "Rate limits")

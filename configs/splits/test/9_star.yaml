@@ -1,0 +1,171 @@
+# test, 9_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: test
+  band: 9_star
+  sources:
+  - data/find_test_maps.py (2026-11-09)
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 4669413
+  beatmapset_id: 2205633
+  artist: Green Day
+  title: Bang Bang
+  version: Class of '09
+  mapper_id: 12416885
+  creator: Rita Summers
+  stars: 9.23
+  bpm: 255.0
+  drain_s: 173
+  cs: 4.5
+  ar: 10.0
+  od: 10.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 19
+  playcount: 233857
+  available:
+    NM:
+      acc98: 63
+      acc95: 100
+  relaxed:
+  - votes10
+  pilot: false
+  split: test
+- beatmap_id: 4235907
+  beatmapset_id: 1707590
+  artist: Camellia feat. Nanahira
+  title: Kizuitara Shunkashuutou (Cut Ver.)
+  version: Akitoshi's Cataclysm
+  mapper_id: 4754771
+  creator: WinterBird
+  stars: 9.03
+  bpm: 256.0
+  drain_s: 134
+  cs: 4.1
+  ar: 10.0
+  od: 9.9
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 3
+    jumps: 15
+  playcount: 77689
+  available:
+    NM:
+      acc98: 43
+      acc95: 100
+  relaxed:
+  - votes10
+  pilot: false
+  split: test
+- beatmap_id: 4904540
+  beatmapset_id: 2237410
+  artist: xi
+  title: FREEDOM DiVE
+  version: Arles
+  mapper_id: 1722835
+  creator: Bloxi
+  stars: 9.68
+  bpm: 222.22
+  drain_s: 230
+  cs: 4.0
+  ar: 10.0
+  od: 10.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 48
+    jumps: 8
+  playcount: 125335
+  available:
+    NM:
+      acc98: 30
+      acc95: 91
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 4798513
+  beatmapset_id: 2255665
+  artist: Raimukun
+  title: Icyxis
+  version: ~Divine Intervention~
+  mapper_id: 11106442
+  creator: Vermasium
+  stars: 9.47
+  bpm: 222.0
+  drain_s: 102
+  cs: 4.0
+  ar: 10.0
+  od: 10.0
+  style: streams
+  style_votes:
+    tech: 1
+    streams: 32
+    jumps: 0
+  playcount: 51877
+  available:
+    NM:
+      acc98: 7
+      acc95: 28
+  relaxed:
+  - acc95
+  pilot: false
+  split: test
+- beatmap_id: 4618179
+  beatmapset_id: 2184780
+  artist: kessoku band
+  title: Guitar to Kodoku to Aoi Hoshi (Hayakou Bootleg)
+  version: Showtime!
+  mapper_id: 21180640
+  creator: Hayakou
+  stars: 9.99
+  bpm: 272.0
+  drain_s: 148
+  cs: 4.0
+  ar: 10.0
+  od: 10.0
+  style: jumps
+  style_votes:
+    tech: 2
+    streams: 9
+    jumps: 19
+  playcount: 88390
+  available:
+    NM:
+      acc98: 1
+      acc95: 41
+  relaxed:
+  - votes10
+  - acc95
+  pilot: false
+  split: test
+- beatmap_id: 3100786
+  beatmapset_id: 1514530
+  artist: Utsu-P feat. Sekihan
+  title: Nurikabe
+  version: Kegare
+  mapper_id: 5099768
+  creator: Neto
+  stars: 9.48
+  bpm: 272.0
+  drain_s: 73
+  cs: 4.2
+  ar: 10.0
+  od: 10.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 10
+  playcount: 35795
+  available:
+    NM:
+      acc98: 4
+      acc95: 53
+  relaxed:
+  - votes10
+  - acc95
+  pilot: false
+  split: test

@@ -1,0 +1,5 @@
+# test maps added with relaxed acc95 (data/find_test_maps.py): NM at a 95% floor
+4377326
+4798513
+4618179
+3100786

@@ -1,0 +1,263 @@
+# Challenge list: hard maps picked for fun and as an extra stress test. NOT part of train/val/test:
+# never used for training, validation, model selection or early stopping (split: challenge).
+# Rules: ranked osu!standard, no star cap, no CS/AR/drain filter, no style quota. Style from player
+# tags if one style dominates (data/select_maps.py style_of), else "mixed". `shares_set_with` lists
+# difficulties from the same mapset in configs/splits (same song: allowed, but recorded).
+manual:
+- beatmap_id: 555797
+  artist: UNDEAD CORPORATION
+  title: Everything will freeze
+  version: Time Freeze
+  mapper: Ekoro
+  stars: 8.31
+  bpm: 240
+  drain_s: 188
+  cs: 4.0
+  ar: 10.0
+  style: streams
+  shares_set_with: []   # [Lunatic] 553131 was in the first map list but not in the current one
+  split: challenge
+- beatmap_id: 1114721
+  artist: Camellia
+  title: Exit This Earth's Atomosphere
+  version: Evolution
+  mapper: rrtyui
+  stars: 7.77
+  bpm: 170
+  drain_s: 305
+  cs: 4.0
+  ar: 9.7
+  style: tech           # tags agree: tech 33 vs jumps 21 (skillset/tech 30, jumps/linear 17)
+  shares_set_with: []
+  split: challenge
+suggested:
+- beatmap_id: 2868388
+  artist: Raphlesia & BilliumMoto
+  title: My Love
+  version: Our Love
+  mapper: Mao
+  stars: 7.15
+  bpm: 175.0
+  drain_s: 222
+  cs: 4.2
+  ar: 9.6
+  style: tech
+  style_votes:
+    tech: 37
+    streams: 1
+    jumps: 0
+  playcount: 888337
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 1157344
+  artist: NOMA
+  title: Brain Power
+  version: Killer Machine
+  mapper: Monstrata
+  stars: 7.58
+  bpm: 170.0
+  drain_s: 104
+  cs: 4.0
+  ar: 9.6
+  style: tech
+  style_votes:
+    tech: 23
+    streams: 0
+    jumps: 7
+  playcount: 861552
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 2809623
+  artist: sabi
+  title: true DJ MAG top ranker's song Zenpen (katagiri Remix)
+  version: KEMOMIMI EDM SQUAD
+  mapper: Nathan
+  stars: 7.96
+  bpm: 170.0
+  drain_s: 283
+  cs: 4.0
+  ar: 9.7
+  style: tech
+  style_votes:
+    tech: 116
+    streams: 14
+    jumps: 0
+  playcount: 1185382
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 1693575
+  artist: Camellia feat. Nanahira
+  title: Bassdrop Freaks (2018 "Redrop" ver.)
+  version: Beisu Doroppu
+  mapper: Mir
+  stars: 6.74
+  bpm: 179.0
+  drain_s: 257
+  cs: 4.0
+  ar: 9.7
+  style: tech
+  style_votes:
+    tech: 25
+    streams: 2
+    jumps: 1
+  playcount: 1253916
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 552068
+  artist: UNDEAD CORPORATION
+  title: Everything will freeze
+  version: Extra
+  mapper: Ekoro
+  stars: 7.3
+  bpm: 240.0
+  drain_s: 188
+  cs: 4.0
+  ar: 9.5
+  style: streams
+  style_votes:
+    tech: 18
+    streams: 437
+    jumps: 19
+  playcount: 8261596
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 1028733
+  artist: 9mm Parabellum Bullet
+  title: Inferno
+  version: The Eclipse
+  mapper: Monstrata
+  stars: 7.66
+  bpm: 195.0
+  drain_s: 88
+  cs: 5.0
+  ar: 10.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 30
+    jumps: 17
+  playcount: 2163831
+  shares_set_with:
+  - 1033154
+  split: challenge
+  confirmed: false
+- beatmap_id: 658127
+  artist: xi
+  title: Blue Zenith
+  version: FOUR DIMENSIONS
+  mapper: Asphyxia
+  stars: 7.51
+  bpm: 200.0
+  drain_s: 242
+  cs: 4.0
+  ar: 9.6
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 268
+    jumps: 0
+  playcount: 8285046
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 930249
+  artist: Yuaru
+  title: Asu no Yozora Shoukaihan
+  version: Sky Arrow
+  mapper: Akitoshi
+  stars: 6.63
+  bpm: 185.0
+  drain_s: 163
+  cs: 4.2
+  ar: 9.5
+  style: streams
+  style_votes:
+    tech: 1
+    streams: 193
+    jumps: 113
+  playcount: 9028757
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 714001
+  artist: Reol
+  title: No title
+  version: jieusieu's Lemur
+  mapper: VINXIS
+  stars: 6.61
+  bpm: 200.0
+  drain_s: 59
+  cs: 4.0
+  ar: 9.6
+  style: jumps
+  style_votes:
+    tech: 19
+    streams: 0
+    jumps: 267
+  playcount: 11049664
+  shares_set_with:
+  - 712376
+  split: challenge
+  confirmed: false
+- beatmap_id: 1849273
+  artist: dj TAKA
+  title: quaver
+  version: Monstrata's Ultimate Crescendo
+  mapper: Sotarks
+  stars: 6.51
+  bpm: 184.0
+  drain_s: 59
+  cs: 4.0
+  ar: 9.6
+  style: jumps
+  style_votes:
+    tech: 12
+    streams: 8
+    jumps: 78
+  playcount: 4478625
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 1655981
+  artist: Vickeblanka
+  title: Black Rover (TV Size)
+  version: Extreme
+  mapper: Sotarks
+  stars: 6.62
+  bpm: 204.0
+  drain_s: 85
+  cs: 4.2
+  ar: 9.7
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 190
+  playcount: 16997580
+  shares_set_with: []
+  split: challenge
+  confirmed: false
+- beatmap_id: 736215
+  artist: Panda Eyes & Teminite
+  title: Highscore
+  version: Game Over
+  mapper: Fort
+  stars: 7.08
+  bpm: 110.0
+  drain_s: 232
+  cs: 4.0
+  ar: 9.5
+  style: jumps
+  style_votes:
+    tech: 44
+    streams: 0
+    jumps: 341
+  playcount: 9236895
+  shares_set_with: []
+  split: challenge
+  confirmed: false

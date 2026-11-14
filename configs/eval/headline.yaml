@@ -1,0 +1,35 @@
+# The report's results table (the project plan M6, S2): every model below, every seed, played on the test
+# split under the cells below. python -m eval.headline run --config configs/eval/headline.yaml
+split: test
+motor: cap                      # eval/motor.py: the 75 px/frame speed cap, no landing noise
+auto_motor: free                # Auto's straight lines exceed the cap at 7*+ (97.1% at 9* capped, 100.00% free
+                                # on every test map); the cap never costs the policy (baseline seed 0, 7-9*:
+                                # free vs cap within 0.1 pp), so the ceiling is Auto unconstrained
+cells:                          # mods x star bands (data/splits.py band names; all = every band)
+  - {mods: NM, bands: all}
+  - {mods: HR, bands: [4_star, 5_star, 6_star]}     # synthetic difficulty: in-band maps only
+  - {mods: DT, bands: [4_star, 5_star, 6_star]}
+  - {mods: HRDT, bands: [4_star, 5_star, 6_star]}
+# Per model: where its checkpoints are and which seeds. local: a run folder pattern ({seed} filled in);
+# hub: a repo in the sc4001-project org (train/hub.py pull fetches it into runs/<name>_seed<N>/).
+# seeds: a list, or all (every seed the Hub repo holds).
+models:
+  baseline_cap:      {local: "runs/baseline_cap_seed{seed}", seeds: [0, 1, 2]}    # the headline model
+  prev_action:       {local: "runs/prev_action_seed{seed}", seeds: [0, 1, 2]}     # S2
+  prev_moves:        {local: "runs/prev_moves_seed{seed}", seeds: [0, 1, 2]}      # S2: cursor moves only
+  # arch/nikki's variants retrained 9 Nov with selection under CAP, like baseline_cap (configs/arch_cap/)
+  framestack_half_cap:   {local: "runs/framestack_half_cap_seed{seed}", seeds: [0, 1, 2]}
+  framestack_double_cap: {local: "runs/framestack_double_cap_seed{seed}", seeds: [0, 1, 2]}
+  cnn3d_cap:             {local: "runs/cnn3d_cap_seed{seed}", seeds: [0, 1, 2]}
+  cnn_gru_cap:           {local: "runs/cnn_gru_cap_seed{seed}", seeds: [0, 1, 2]}
+  softargmax_cap:        {local: "runs/softargmax_cap_seed{seed}", seeds: [0, 1, 2]}
+  # arch/nikki's original runs (docs/architectures.md), selected under the HUMAN motor: kept to
+  # measure what the selection motor changes (baseline vs baseline_cap, and each variant vs its _cap); the
+  # 40-epoch follow-ups (configs/followup/) are left out (dropped 9 Nov)
+  baseline:          {hub: bc-baseline, seeds: all}
+  framestack_half:   {hub: bc-framestack-half, seeds: all}
+  framestack_double: {hub: bc-framestack-double, seeds: all}
+  cnn3d:             {hub: bc-cnn3d, seeds: all}
+  cnn_gru:           {hub: bc-cnn-gru, seeds: all}
+  softargmax:        {hub: bc-softargmax, seeds: all}
+out: runs/headline/results.csv

@@ -1,0 +1,201 @@
+# test, 6_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: test
+  band: 6_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  - data/find_test_maps.py (2026-11-09)
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 2615748
+  beatmapset_id: 1254404
+  artist: Tatsh
+  title: Xevel
+  version: Extreme
+  mapper_id: 2185987
+  creator: emu1337
+  stars: 6.05
+  bpm: 185.0
+  drain_s: 114
+  cs: 3.8
+  ar: 9.2
+  od: 8.5
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 247
+    jumps: 14
+  playcount: 4723390
+  available:
+    NM:
+      acc98: 77
+      acc95: 77
+    DT:
+      acc98: 12
+    HR:
+      acc98: 13
+    HD:
+      acc98: 13
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 2664875
+  beatmapset_id: 867737
+  artist: The Quick Brown Fox
+  title: The Big Black
+  version: Extra
+  mapper_id: 19048
+  creator: Mismagius
+  stars: 6.06
+  bpm: 180.15
+  drain_s: 123
+  cs: 4.0
+  ar: 9.4
+  od: 9.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 65
+    jumps: 0
+  playcount: 1056952
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    HR:
+      acc98: 11
+    HD:
+      acc98: 64
+    DT:
+      acc98: 0
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 2635238
+  beatmapset_id: 1268030
+  artist: Camellia
+  title: Compute It With Some Devilish Alcoholic Steampunk Engines
+  version: Theories of a Drunken Conductor
+  mapper_id: 8840398
+  creator: OneShotFox
+  stars: 6.98
+  bpm: 165.0
+  drain_s: 236
+  cs: 4.0
+  ar: 9.5
+  od: 9.0
+  style: tech
+  style_votes:
+    tech: 46
+    streams: 0
+    jumps: 0
+  playcount: 550396
+  available:
+    NM:
+      acc98: 93
+      acc95: 100
+    HR:
+      acc98: 36
+    HD:
+      acc98: 91
+    DT:
+      acc98: 0
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 2731544
+  beatmapset_id: 1318545
+  artist: lapix
+  title: Day by day (PSYQUI Remix)
+  version: Edge of Tomorrow
+  mapper_id: 3087506
+  creator: JeZag
+  stars: 6.51
+  bpm: 170.0
+  drain_s: 213
+  cs: 4.5
+  ar: 9.5
+  od: 8.5
+  style: tech
+  style_votes:
+    tech: 49
+    streams: 8
+    jumps: 0
+  playcount: 330517
+  available:
+    NM:
+      acc98: 84
+      acc95: 100
+    HR:
+      acc98: 13
+    HD:
+      acc98: 63
+    DT:
+      acc98: 0
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 1309290
+  beatmapset_id: 620910
+  artist: O2i3
+  title: TSLove
+  version: Extra
+  mapper_id: 7989641
+  creator: Fanteer
+  stars: 6.1
+  bpm: 185.0
+  drain_s: 94
+  cs: 4.2
+  ar: 9.5
+  od: 9.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 43
+    jumps: 17
+  playcount: 1619679
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    HR:
+      acc98: 33
+    HD:
+      acc98: 100
+    DT:
+      acc98: 0
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 3962022
+  beatmapset_id: 1919786
+  artist: MIMI vs. Leah Kate
+  title: 10 Things I Hate About Ai no Sukima
+  version: 1 - I Hate The Fact You Made Sytho Map Too
+  mapper_id: 4175698
+  creator: Log Off Now
+  stars: 6.35
+  bpm: 204.0
+  drain_s: 65
+  cs: 4.1
+  ar: 9.2
+  od: 9.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 21
+    jumps: 12
+  playcount: 457912
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    HR:
+      acc98: 100
+    HD:
+      acc98: 43
+    DT:
+      acc98: 4
+  relaxed: []
+  pilot: false
+  split: test

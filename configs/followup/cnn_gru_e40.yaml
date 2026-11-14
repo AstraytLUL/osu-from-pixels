@@ -1,0 +1,34 @@
+# Follow-up (docs/architectures.md, "Follow-ups"): configs/arch/cnn_gru.yaml trained for 40 epochs
+# instead of 20. Its NoMod val accuracy was still rising at epoch 20 (best epochs 19, 18, 19), so its
+# 20-epoch results may understate it. Only `name` and `train.epochs` differ from cnn_gru.yaml.
+name: cnn_gru_e40
+seed: 0
+data:
+  train_mods: [NM, HR]            # manifest `mods` values used for training
+  canonical_hr: true              # HR replays flipped back to NoMod geometry (data/dataset.py)
+  window: 20                      # frames per sample (k); ablated over 5/10/20/40
+  cursor_jitter: 48               # px; shift the cursor history in half the samples, learn to recover
+  cursor_channel: false           # the cursor drawn into the map frames
+  map_lists: [configs/splits]      # data/splits.py: train = v1 + spinner maps; val = v1 val
+model:
+  backbone: cnn_gru               # framestack | cnn3d | cnn_gru (models/backbones.py)
+  features: 512                   # size of the CNN's feature vector
+  aim: absolute                   # relative (a move from the cursor) | absolute (the next position)
+train:
+  batch_size: 256
+  epochs: 40                      # cnn_gru.yaml: 20
+  samples_per_epoch: 500000       # windows drawn per epoch (the train split has ~4.5M)
+  lr: 3.0e-4                      # needs the ".0": PyYAML reads 3e-4 as a string
+  weight_decay: 0.01
+  move_weight: 1.0
+  press_weight: 1.0
+  held_weight: 1.0
+  press_pos_weight: 10.0          # presses are ~4% of frames
+  device: auto                    # auto | cuda | mps (a Mac) | cpu
+  num_workers: 8                  # DataLoader processes (~1,100 windows/s each)
+eval:
+  every: 1                        # epochs between closed-loop validations
+  val_maps: null                  # null = all NoMod val maps; a number = only the first n (faster)
+  press_threshold: 0.5            # press probability above which the policy clicks
+  max_step: 75                    # motor limits for validation play (eval/motor.py's HUMAN): top speed,
+  aim_noise: 0.3                  # px per frame, and landing noise as a fraction of the step

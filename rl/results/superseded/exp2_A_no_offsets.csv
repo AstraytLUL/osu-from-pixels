@@ -1,0 +1,4 @@
+label,seed,checkpoint,beatmap_id,mods,stars,style,accuracy,count_300,count_100,count_50,count_miss,miss_circle_position,miss_circle_click,objects,max_combo,full_combo,max_combo_ratio,slider_breaks,end_drops,unstable_rate,mean_hit_error
+exp2_A,0,runs/baseline_cap_seed0/best.pt,4952940,NM,8.0,jumps,0.9495208761122519,921,10,3,40,28,4,974,218,1396,0.15616045845272206,0,9,73.78783540045399,-3.4458874458816457
+exp2_A,0,runs/baseline_cap_seed0/best.pt,555797,NM,,,0.8872117400419287,1387,67,8,128,2,116,1590,260,2045,0.1271393643031785,1,12,133.92970029337556,1.841632088526065
+exp2_A,0,runs/baseline_cap_seed0/best.pt,4377326,NM,8.03,tech,0.8632718524458701,1046,88,7,106,8,33,1247,108,661,0.16338880484114976,16,84,140.33693293913961,-9.396238051179026

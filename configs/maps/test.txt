@@ -1,0 +1,10 @@
+# test maps, from configs/maps_v1.yaml
+655794  # tech: DJ S3RL - T-T-Techno (feat. Jesskah) [Technonationalism] 5.99*
+367175  # tech: M2U feat. Guriri - Magnolia [AngelHoney's ExtrA] 5.97*
+4912305  # tech: Hiiragi Magnetite - Tetoris [Insane] 4.63*
+207659  # streams: MuryokuP - Catastrophe [Cataclysm] 4.96*
+2615748  # streams: Tatsh - Xevel [Extreme] 6.05*
+1697722  # streams: THE ORAL CIGARETTES - Mou Ii kai? [Divine's Insane] 5.41*
+1474956  # jumps: Nogizaka46 - Yubi Bouenkyou ~Anime-ban~ [~A r M i N's Adventure~] 5.5*
+794670  # jumps: Agnete Kjolsrud - Get Jinxed [Master] 5.63*
+1946909  # jumps: HAG - Colorful [MiracleE's Expert] 5.03*

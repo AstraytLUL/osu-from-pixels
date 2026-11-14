@@ -1,0 +1,9 @@
+# Text files are stored with LF line endings, whatever the platform.
+* text=auto eol=lf
+
+*.png binary
+*.pdf binary
+*.pt binary
+*.npy binary
+*.npz binary
+*.osr binary

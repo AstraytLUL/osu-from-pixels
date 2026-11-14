@@ -1,0 +1,10 @@
+# val maps, from configs/maps_v1.yaml
+1022252  # tech: NOMA - Brain Power [Cryptic's INFINITE] 5.96*
+3102956  # tech: PSYQUI - Hysteric Night Girl -Awakening- (feat. Such) [Insane] 5.29*
+2530697  # tech: O2i3 - TSLove [Log Off Now's Extra] 5.89*
+114635  # streams: Hatsune Miku - Rubik's Cube [7x7x7] 5.66*
+261725  # streams: LeaF - Calamity Fortune [SCV's Lunatic] 5.38*
+1038400  # streams: cYsmix - Fright March [Insane] 4.66*
+814293  # jumps: Station Earth - Cold Green Eyes ft. Roos Denayer [Divine] 4.89*
+1262832  # jumps: ClariS - Hitorigoto -TV MIX- [Soliloquy] 4.95*
+712376  # jumps: Reol - No title [Insane] 5.1*

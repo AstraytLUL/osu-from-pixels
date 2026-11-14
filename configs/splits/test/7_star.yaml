@@ -1,0 +1,164 @@
+# test, 7_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: test
+  band: 7_star
+  sources:
+  - data/find_test_maps.py (2026-11-09)
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 1402392
+  beatmapset_id: 662526
+  artist: Yousei Teikoku
+  title: 'Hades: The rise'
+  version: Hardest
+  mapper_id: 1603923
+  creator: Delis
+  stars: 7.58
+  bpm: 210.0
+  drain_s: 240
+  cs: 4.0
+  ar: 10.0
+  od: 9.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 8
+    jumps: 41
+  playcount: 2415978
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 977770
+  beatmapset_id: 456237
+  artist: Kano
+  title: Yuudachi no Ribbon
+  version: Extreme
+  mapper_id: 2233878
+  creator: moph
+  stars: 7.21
+  bpm: 230.0
+  drain_s: 219
+  cs: 4.2
+  ar: 9.7
+  od: 9.2
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 12
+    jumps: 45
+  playcount: 1261342
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 1245365
+  beatmapset_id: 558694
+  artist: xi
+  title: Glorious Crown
+  version: NiNo's Extra
+  mapper_id: 2506267
+  creator: Monstrata
+  stars: 7.33
+  bpm: 225.5
+  drain_s: 111
+  cs: 3.5
+  ar: 9.5
+  od: 9.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 30
+    jumps: 0
+  playcount: 859841
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 1377957
+  beatmapset_id: 540457
+  artist: EPICA
+  title: Victims of Contingency
+  version: Remorse
+  mapper_id: 5174427
+  creator: DakiniBrave
+  stars: 7.93
+  bpm: 210.0
+  drain_s: 199
+  cs: 4.5
+  ar: 9.8
+  od: 9.5
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 22
+    jumps: 7
+  playcount: 843066
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 2507884
+  beatmapset_id: 1204383
+  artist: meganeko
+  title: Feral (osu! edit)
+  version: Veracious
+  mapper_id: 9870167
+  creator: Respirte
+  stars: 7.62
+  bpm: 160.0
+  drain_s: 169
+  cs: 3.9
+  ar: 9.6
+  od: 9.1
+  style: tech
+  style_votes:
+    tech: 41
+    streams: 22
+    jumps: 0
+  playcount: 648829
+  available:
+    NM:
+      acc98: 76
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 4529671
+  beatmapset_id: 2150088
+  artist: DECO*27
+  title: Rabbit Hole feat. Hatsune Miku
+  version: '*****'
+  mapper_id: 2848604
+  creator: toybot
+  stars: 7.96
+  bpm: 173.0
+  drain_s: 150
+  cs: 4.0
+  ar: 9.7
+  od: 9.2
+  style: tech
+  style_votes:
+    tech: 31
+    streams: 17
+    jumps: 0
+  playcount: 235297
+  available:
+    NM:
+      acc98: 40
+      acc95: 99
+  relaxed: []
+  pilot: false
+  split: test

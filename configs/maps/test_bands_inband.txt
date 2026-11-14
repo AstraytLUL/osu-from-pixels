@@ -1,0 +1,11 @@
+# test maps added by data/find_test_maps.py (in-band: NM HR HD DT)
+2347578  # jumps: Sayuri - Sore wa Chiisana Hikari no Youna (TV Size) [browiec's Expert] 4.03*
+2014470  # jumps: MIMI feat. Hatsune Miku - Marshmary [Insane] 4.41*
+127846  # streams: Falcom Sound Team jdk - Over Drive [Origin] 4.97*
+2651414  # tech: glaive - astrid [insane] 4.97*
+782310  # streams: nekodex - circles! [insane!] 5.17*
+2664875  # streams: The Quick Brown Fox - The Big Black [Extra] 6.06*
+2635238  # tech: Camellia - Compute It With Some Devilish Alcoholic Steampunk Engines [Theories of a Drunken Conductor] 6.98*
+2731544  # tech: lapix - Day by day (PSYQUI Remix) [Edge of Tomorrow] 6.51*
+1309290  # streams: O2i3 - TSLove [Extra] 6.1*
+3962022  # streams: MIMI vs. Leah Kate - 10 Things I Hate About Ai no Sukima [1 - I Hate The Fact You Made Sytho Map Too] 6.35*

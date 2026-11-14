@@ -1,0 +1,9 @@
+# NoMod at a 95% floor: the test maps data/find_test_maps.py took with "acc95" (too few clean replays at 98%).
+mod_sets: [NM]
+accuracy_min: 0.95
+per_map: 10
+per_player: 3
+cap_groups: [[NM, HR]]
+leaderboard_limit: 100
+leaderboard_sleep: 4
+download_sleep: 7

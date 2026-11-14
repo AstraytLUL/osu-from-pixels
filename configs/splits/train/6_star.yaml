@@ -1,0 +1,273 @@
+# train, 6_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: train
+  band: 6_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  - configs/legacy/maps/maps_spinners.yaml
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 1553356
+  beatmapset_id: 734135
+  artist: 'Chito (CV: Minase Inori), Yuuri (CV: Kubo Yurika)'
+  title: More One Night (Assertive Hardcore Bootleg)
+  version: Collab
+  mapper_id: 6280862
+  creator: Minorsonek
+  stars: 6.2
+  bpm: 170.0
+  drain_s: 174
+  cs: 4.0
+  ar: 9.2
+  od: 8.5
+  style: tech
+  style_votes:
+    tech: 26
+    streams: 0
+    jumps: 9
+  playcount: 604782
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 25
+    HD:
+      acc98: 99
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 3856244
+  beatmapset_id: 1874064
+  artist: SEREBRO
+  title: MALO TEBYA (Sped Up Ver.)
+  version: ZYZZBASS
+  mapper_id: 11655886
+  creator: Basensorex
+  stars: 6.71
+  bpm: 175.15
+  drain_s: 148
+  cs: 4.2
+  ar: 9.5
+  od: 9.0
+  style: tech
+  style_votes:
+    tech: 46
+    streams: 3
+    jumps: 0
+  playcount: 215182
+  available:
+    NM:
+      acc98: 90
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 14
+    HD:
+      acc98: 72
+  relaxation: 2
+  split: train
+  pilot: false
+- beatmap_id: 4483942
+  beatmapset_id: 2095154
+  artist: LV.4
+  title: Burning Star
+  version: Dada's Extra
+  mapper_id: 9119507
+  creator: ktgster
+  stars: 6.75
+  bpm: 175.0
+  drain_s: 149
+  cs: 4.0
+  ar: 9.5
+  od: 9.0
+  style: tech
+  style_votes:
+    tech: 32
+    streams: 11
+    jumps: 0
+  playcount: 201070
+  available:
+    NM:
+      acc98: 71
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 11
+    HD:
+      acc98: 33
+  relaxation: 2
+  split: train
+  pilot: false
+- beatmap_id: 5297705
+  beatmapset_id: 2412331
+  artist: takehirotei
+  title: Haiboku no Altra Vita
+  version: Expert
+  mapper_id: 13866023
+  creator: Mahiru Shiina
+  stars: 6.1
+  bpm: 231.0
+  drain_s: 167
+  cs: 3.8
+  ar: 9.2
+  od: 8.5
+  style: tech
+  style_votes:
+    tech: 27
+    streams: 6
+    jumps: 5
+  playcount: 84196
+  available:
+    NM:
+      acc98: 30
+      acc95: 94
+    DT:
+      acc98: 0
+    HR:
+      acc98: 1
+    HD:
+      acc98: 3
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 676172
+  beatmapset_id: 185250
+  artist: ALiCE'S EMOTiON
+  title: Dark Flight Dreamer
+  version: Dreamer
+  mapper_id: 1947052
+  creator: Sakaue Nachi
+  stars: 6.32
+  bpm: 189.0
+  drain_s: 178
+  cs: 4.0
+  ar: 9.5
+  od: 8.8
+  style: streams
+  style_votes:
+    tech: 12
+    streams: 141
+    jumps: 94
+  playcount: 7212033
+  available:
+    NM:
+      acc98: 97
+      acc95: 97
+    DT:
+      acc98: 2
+    HR:
+      acc98: 28
+    HD:
+      acc98: 81
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1570203
+  beatmapset_id: 744772
+  artist: toby fox
+  title: Last Goodbye
+  version: Determination
+  mapper_id: 2308676
+  creator: Fatfan Kolek
+  stars: 6.32
+  bpm: 180.0
+  drain_s: 86
+  cs: 4.0
+  ar: 9.3
+  od: 9.5
+  style: jumps
+  style_votes:
+    tech: 23
+    streams: 0
+    jumps: 281
+  playcount: 7232022
+  available:
+    NM:
+      acc98: 50
+      acc95: 50
+    DT:
+      acc98: 1
+    HR:
+      acc98: 10
+    HD:
+      acc98: 16
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 846105
+  beatmapset_id: 387700
+  artist: toby fox
+  title: MEGALOVANIA
+  version: Burn
+  mapper_id: 640611
+  creator: Kyshiro
+  stars: 6.06
+  bpm: 240.0
+  drain_s: 124
+  cs: 4.3
+  ar: 9.5
+  od: 9.3
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 4
+    jumps: 39
+  playcount: 4936254
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 44
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 933875
+  beatmapset_id: 413117
+  artist: DECO*27
+  title: Ghost Rule
+  version: N a s y a's Extra
+  mapper_id: 1473106
+  creator: Awaken
+  stars: 6.92
+  bpm: 210.0
+  drain_s: 174
+  cs: 3.8
+  ar: 9.5
+  od: 8.5
+  circles: 441
+  sliders: 288
+  spinners: 3
+  playcount: 4614174
+  nm_usable: 99
+  style: spinners
+  split: train
+- beatmap_id: 786867
+  beatmapset_id: 355573
+  artist: O2i3
+  title: Ooi [Game Edit]
+  version: Extreme
+  mapper_id: 2805457
+  creator: Fort
+  stars: 6.45
+  bpm: 216.0
+  drain_s: 112
+  cs: 4.0
+  ar: 9.4
+  od: 8.2
+  circles: 351
+  sliders: 175
+  spinners: 6
+  playcount: 3534071
+  nm_usable: 47
+  style: spinners
+  split: train

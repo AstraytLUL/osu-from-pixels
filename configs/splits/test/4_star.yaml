@@ -1,0 +1,202 @@
+# test, 4_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: test
+  band: 4_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  - data/find_test_maps.py (2026-11-09)
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 4912305
+  beatmapset_id: 2297706
+  artist: Hiiragi Magnetite
+  title: Tetoris
+  version: Insane
+  mapper_id: 1533796
+  creator: Kawashiro
+  stars: 4.63
+  bpm: 170.0
+  drain_s: 139
+  cs: 3.6
+  ar: 8.8
+  od: 6.7
+  style: tech
+  style_votes:
+    tech: 67
+    streams: 0
+    jumps: 30
+  playcount: 198460
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 22
+    HR:
+      acc98: 9
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 207659
+  beatmapset_id: 72740
+  artist: MuryokuP
+  title: Catastrophe
+  version: Cataclysm
+  mapper_id: 1043627
+  creator: meiikyuu
+  stars: 4.96
+  bpm: 200.0
+  drain_s: 141
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 343
+    jumps: 0
+  playcount: 7786828
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 65
+    HR:
+      acc98: 4
+    HD:
+      acc98: 52
+  relaxation: 0
+  split: test
+  pilot: false
+- beatmap_id: 2347578
+  beatmapset_id: 1123162
+  artist: Sayuri
+  title: Sore wa Chiisana Hikari no Youna (TV Size)
+  version: browiec's Expert
+  mapper_id: 9426712
+  creator: Kuki1537
+  stars: 4.03
+  bpm: 144.0
+  drain_s: 79
+  cs: 3.6
+  ar: 8.5
+  od: 8.2
+  style: jumps
+  style_votes:
+    tech: 32
+    streams: 0
+    jumps: 144
+  playcount: 6962554
+  available:
+    NM:
+      acc98: 17
+      acc95: 17
+    HR:
+      acc98: 0
+    HD:
+      acc98: 4
+    DT:
+      acc98: 96
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 2014470
+  beatmapset_id: 962088
+  artist: MIMI feat. Hatsune Miku
+  title: Marshmary
+  version: Insane
+  mapper_id: 4378277
+  creator: Log Off Now
+  stars: 4.41
+  bpm: 182.0
+  drain_s: 83
+  cs: 3.6
+  ar: 9.0
+  od: 8.0
+  style: jumps
+  style_votes:
+    tech: 82
+    streams: 46
+    jumps: 655
+  playcount: 15060024
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    HR:
+      acc98: 5
+    HD:
+      acc98: 68
+    DT:
+      acc98: 3
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 127846
+  beatmapset_id: 40233
+  artist: Falcom Sound Team jdk
+  title: Over Drive
+  version: Origin
+  mapper_id: 134572
+  creator: Kite
+  stars: 4.97
+  bpm: 160.0
+  drain_s: 154
+  cs: 4.0
+  ar: 9.0
+  od: 6.0
+  style: streams
+  style_votes:
+    tech: 4
+    streams: 79
+    jumps: 0
+  playcount: 1235996
+  available:
+    NM:
+      acc98: 88
+      acc95: 88
+    HR:
+      acc98: 17
+    HD:
+      acc98: 99
+    DT:
+      acc98: 23
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 2651414
+  beatmapset_id: 1275747
+  artist: glaive
+  title: astrid
+  version: insane
+  mapper_id: 3906405
+  creator: jamesjan3
+  stars: 4.97
+  bpm: 169.5
+  drain_s: 72
+  cs: 3.6
+  ar: 8.8
+  od: 7.5
+  style: tech
+  style_votes:
+    tech: 13
+    streams: 0
+    jumps: 0
+  playcount: 816022
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    HR:
+      acc98: 10
+    HD:
+      acc98: 100
+    DT:
+      acc98: 34
+  relaxed:
+  - votes10
+  pilot: false
+  split: test

@@ -1,0 +1,200 @@
+# val, 5_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: val
+  band: 5_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 1022252
+  beatmapset_id: 357777
+  artist: NOMA
+  title: Brain Power
+  version: Cryptic's INFINITE
+  mapper_id: 3728904
+  creator: Jacob
+  stars: 5.96
+  bpm: 170.0
+  drain_s: 105
+  cs: 3.5
+  ar: 9.4
+  od: 8.5
+  style: tech
+  style_votes:
+    tech: 29
+    streams: 10
+    jumps: 4
+  playcount: 990207
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 4
+    HD:
+      acc98: 75
+  relaxation: 0
+  split: val
+  pilot: true
+- beatmap_id: 3102956
+  beatmapset_id: 1508329
+  artist: PSYQUI
+  title: Hysteric Night Girl -Awakening- (feat. Such)
+  version: Insane
+  mapper_id: 7354700
+  creator: Jiysea
+  stars: 5.29
+  bpm: 160.0
+  drain_s: 179
+  cs: 3.5
+  ar: 9.0
+  od: 8.0
+  style: tech
+  style_votes:
+    tech: 23
+    streams: 0
+    jumps: 3
+  playcount: 403705
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 3
+    HR:
+      acc98: 4
+    HD:
+      acc98: 94
+  relaxation: 0
+  split: val
+  pilot: false
+- beatmap_id: 2530697
+  beatmapset_id: 1206779
+  artist: O2i3
+  title: TSLove
+  version: Log Off Now's Extra
+  mapper_id: 4378277
+  creator: Nuvolina
+  stars: 5.89
+  bpm: 185.0
+  drain_s: 83
+  cs: 3.5
+  ar: 9.5
+  od: 8.5
+  style: tech
+  style_votes:
+    tech: 29
+    streams: 4
+    jumps: 0
+  playcount: 383572
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 13
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: val
+  pilot: false
+- beatmap_id: 114635
+  beatmapset_id: 33651
+  artist: Hatsune Miku
+  title: Rubik's Cube
+  version: 7x7x7
+  mapper_id: 74313
+  creator: rui
+  stars: 5.66
+  bpm: 174.0
+  drain_s: 151
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 243
+    jumps: 52
+  playcount: 9078868
+  available:
+    NM:
+      acc98: 75
+      acc95: 75
+    DT:
+      acc98: 9
+    HR:
+      acc98: 35
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: val
+  pilot: true
+- beatmap_id: 261725
+  beatmapset_id: 96103
+  artist: LeaF
+  title: Calamity Fortune
+  version: SCV's Lunatic
+  mapper_id: 798743
+  creator: Flower
+  stars: 5.38
+  bpm: 200.0
+  drain_s: 129
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 68
+    streams: 156
+    jumps: 0
+  playcount: 4056327
+  available:
+    NM:
+      acc98: 47
+      acc95: 47
+    DT:
+      acc98: 8
+    HR:
+      acc98: 4
+    HD:
+      acc98: 93
+  relaxation: 0
+  split: val
+  pilot: false
+- beatmap_id: 712376
+  beatmapset_id: 320118
+  artist: Reol
+  title: No title
+  version: Insane
+  mapper_id: 4323406
+  creator: VINXIS
+  stars: 5.1
+  bpm: 200.0
+  drain_s: 77
+  cs: 4.0
+  ar: 9.1
+  od: 8.1
+  style: jumps
+  style_votes:
+    tech: 25
+    streams: 11
+    jumps: 80
+  playcount: 15470350
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 2
+    HR:
+      acc98: 9
+    HD:
+      acc98: 25
+  relaxation: 0
+  split: val
+  pilot: true

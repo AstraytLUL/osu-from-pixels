@@ -1,0 +1,167 @@
+# test, 8_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: test
+  band: 8_star
+  sources:
+  - data/find_test_maps.py (2026-11-09)
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 4967007
+  beatmapset_id: 2235601
+  artist: Arash
+  title: Temptation (feat. Rebecca) (Nightcore Mix)
+  version: Tylerderp's Extreme
+  mapper_id: 16004080
+  creator: silver tail
+  stars: 8.04
+  bpm: 126.0
+  drain_s: 168
+  cs: 3.8
+  ar: 9.9
+  od: 9.8
+  style: jumps
+  style_votes:
+    tech: 14
+    streams: 0
+    jumps: 113
+  playcount: 409474
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 4952940
+  beatmapset_id: 2311267
+  artist: Mrs. GREEN APPLE
+  title: Ao to Natsu (katagiri Bootleg) (Sped Up Ver.)
+  version: Ultra
+  mapper_id: 26232141
+  creator: '- Nilou -'
+  stars: 8.0
+  bpm: 240.0
+  drain_s: 190
+  cs: 4.0
+  ar: 9.9
+  od: 9.7
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 45
+  playcount: 217369
+  available:
+    NM:
+      acc98: 89
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 2654458
+  beatmapset_id: 1268344
+  artist: UNDEAD CORPORATION
+  title: Frozen
+  version: Everything Will Freeze
+  mapper_id: 6480305
+  creator: Daycore
+  stars: 8.11
+  bpm: 220.0
+  drain_s: 183
+  cs: 4.0
+  ar: 9.8
+  od: 10.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 35
+    jumps: 4
+  playcount: 903457
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 4203275
+  beatmapset_id: 2018522
+  artist: Zektbach
+  title: L'erisia (Primary Logic)
+  version: Ristaccia
+  mapper_id: 2688581
+  creator: Luscent
+  stars: 8.38
+  bpm: 234.0
+  drain_s: 165
+  cs: 4.0
+  ar: 10.0
+  od: 9.5
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 21
+    jumps: 12
+  playcount: 210547
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+  relaxed: []
+  pilot: false
+  split: test
+- beatmap_id: 1785659
+  beatmapset_id: 854503
+  artist: YURRY CANON
+  title: Suicide Parade
+  version: Sakase
+  mapper_id: 365586
+  creator: kwk
+  stars: 8.39
+  bpm: 176.0
+  drain_s: 178
+  cs: 4.0
+  ar: 9.6
+  od: 9.0
+  style: tech
+  style_votes:
+    tech: 17
+    streams: 6
+    jumps: 4
+  playcount: 771678
+  available:
+    NM:
+      acc98: 55
+      acc95: 98
+  relaxed:
+  - votes10
+  pilot: false
+  split: test
+- beatmap_id: 4377326
+  beatmapset_id: 2088830
+  artist: tn-shi
+  title: Synthesis.
+  version: .Terminus ()
+  mapper_id: 15664628
+  creator: Arushii
+  stars: 8.03
+  bpm: 180.0
+  drain_s: 226
+  cs: 4.0
+  ar: 9.6
+  od: 9.0
+  style: tech
+  style_votes:
+    tech: 14
+    streams: 0
+    jumps: 0
+  playcount: 42976
+  available:
+    NM:
+      acc98: 8
+      acc95: 90
+  relaxed:
+  - votes10
+  - acc95
+  pilot: false
+  split: test

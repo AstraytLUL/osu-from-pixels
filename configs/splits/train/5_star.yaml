@@ -1,0 +1,1017 @@
+# train, 5_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: train
+  band: 5_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  - configs/legacy/maps/maps_spinners.yaml
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 1498091
+  beatmapset_id: 699749
+  artist: succducc
+  title: me & u
+  version: toynathan's extra
+  mapper_id: 2848604
+  creator: Nathan
+  stars: 5.45
+  bpm: 160.0
+  drain_s: 163
+  cs: 4.0
+  ar: 9.2
+  od: 8.5
+  style: tech
+  style_votes:
+    tech: 28
+    streams: 5
+    jumps: 0
+  playcount: 1701243
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 0
+    HR:
+      acc98: 12
+    HD:
+      acc98: 99
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 1773386
+  beatmapset_id: 848003
+  artist: Culprate
+  title: Aurora
+  version: Expert
+  mapper_id: 405449
+  creator: BOUYAAA
+  stars: 5.87
+  bpm: 145.0
+  drain_s: 161
+  cs: 4.5
+  ar: 9.0
+  od: 8.0
+  style: tech
+  style_votes:
+    tech: 63
+    streams: 10
+    jumps: 2
+  playcount: 338553
+  available:
+    NM:
+      acc98: 63
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 3
+    HD:
+      acc98: 36
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 1939172
+  beatmapset_id: 869649
+  artist: 455-38B
+  title: G e n g a o z o - f o o n
+  version: Another
+  mapper_id: 53378
+  creator: ktgster
+  stars: 5.5
+  bpm: 153.0
+  drain_s: 176
+  cs: 4.5
+  ar: 9.0
+  od: 8.0
+  style: tech
+  style_votes:
+    tech: 44
+    streams: 8
+    jumps: 0
+  playcount: 258156
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 2
+    HR:
+      acc98: 14
+    HD:
+      acc98: 90
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 4826296
+  beatmapset_id: 2263303
+  artist: irohaRingo feat. flower
+  title: Why I hate you
+  version: Galaxy's Extra
+  mapper_id: 4587526
+  creator: Ryuusei Aika
+  stars: 5.74
+  bpm: 156.0
+  drain_s: 88
+  cs: 3.5
+  ar: 9.5
+  od: 9.0
+  style: tech
+  style_votes:
+    tech: 25
+    streams: 0
+    jumps: 0
+  playcount: 140275
+  available:
+    NM:
+      acc98: 20
+      acc95: 89
+    DT:
+      acc98: 0
+    HR:
+      acc98: 2
+    HD:
+      acc98: 5
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 5238823
+  beatmapset_id: 2412328
+  artist: Akiri
+  title: Vespera Stella
+  version: Insane
+  mapper_id: 3533958
+  creator: fieryrage
+  stars: 5.05
+  bpm: 175.0
+  drain_s: 119
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  style: tech
+  style_votes:
+    tech: 71
+    streams: 9
+    jumps: 3
+  playcount: 101197
+  available:
+    NM:
+      acc98: 30
+      acc95: 98
+    DT:
+      acc98: 0
+    HR:
+      acc98: 0
+    HD:
+      acc98: 21
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 4091822
+  beatmapset_id: 1971987
+  artist: James Landino
+  title: Aresene's Bazaar
+  version: Insane
+  mapper_id: 8501291
+  creator: DeviousPanda
+  stars: 5.4
+  bpm: 155.0
+  drain_s: 143
+  cs: 3.5
+  ar: 9.0
+  od: 8.0
+  style: tech
+  style_votes:
+    tech: 46
+    streams: 0
+    jumps: 0
+  playcount: 93412
+  available:
+    NM:
+      acc98: 38
+      acc95: 89
+    DT:
+      acc98: 0
+    HR:
+      acc98: 0
+    HD:
+      acc98: 33
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 847314
+  beatmapset_id: 128931
+  artist: Feint
+  title: Tower Of Heaven (You Are Slaves)
+  version: Extra
+  mapper_id: 1014222
+  creator: eLy
+  stars: 5.12
+  bpm: 175.0
+  drain_s: 155
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  style: streams
+  style_votes:
+    tech: 156
+    streams: 818
+    jumps: 25
+  playcount: 12205467
+  available:
+    NM:
+      acc98: 67
+      acc95: 67
+    DT:
+      acc98: 94
+    HR:
+      acc98: 7
+    HD:
+      acc98: 19
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1255789
+  beatmapset_id: 593620
+  artist: Linked Horizon
+  title: Shinzou o Sasageyo! [TV Size]
+  version: Titan
+  mapper_id: 2706438
+  creator: Monstrata
+  stars: 5.82
+  bpm: 160.0
+  drain_s: 86
+  cs: 4.0
+  ar: 9.3
+  od: 8.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 111
+    jumps: 0
+  playcount: 6572257
+  available:
+    NM:
+      acc98: 43
+      acc95: 43
+    DT:
+      acc98: 7
+    HR:
+      acc98: 13
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 366142
+  beatmapset_id: 147962
+  artist: UPLIFT SPICE
+  title: Omega Rhythm
+  version: lightr's Insane
+  mapper_id: 1131446
+  creator: Jemmmmy
+  stars: 5.21
+  bpm: 173.0
+  drain_s: 164
+  cs: 4.0
+  ar: 9.0
+  od: 7.5
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 62
+    jumps: 20
+  playcount: 5561739
+  available:
+    NM:
+      acc98: 56
+      acc95: 56
+    DT:
+      acc98: 76
+    HR:
+      acc98: 7
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1027542
+  beatmapset_id: 481451
+  artist: S3RL feat Krystal
+  title: R4V3 B0Y
+  version: 3XTR4
+  mapper_id: 5156153
+  creator: DeRandom Otaku
+  stars: 5.44
+  bpm: 175.0
+  drain_s: 165
+  cs: 4.3
+  ar: 9.3
+  od: 8.3
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 84
+    jumps: 56
+  playcount: 5090625
+  available:
+    NM:
+      acc98: 98
+      acc95: 98
+    DT:
+      acc98: 4
+    HR:
+      acc98: 12
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 507728
+  beatmapset_id: 143397
+  artist: Natsume Chiaki
+  title: Hanairo Biyori
+  version: wkyik's Insane
+  mapper_id: 1367570
+  creator: rinsukir
+  stars: 5.19
+  bpm: 182.0
+  drain_s: 163
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 26
+    streams: 58
+    jumps: 8
+  playcount: 4567454
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 85
+    HR:
+      acc98: 2
+    HD:
+      acc98: 33
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 1632673
+  beatmapset_id: 771159
+  artist: VINXIS
+  title: Sidetracked Day (Short Ver.)
+  version: A r M i N's Extra
+  mapper_id: 5115995
+  creator: Sotarks
+  stars: 5.89
+  bpm: 188.0
+  drain_s: 109
+  cs: 3.8
+  ar: 9.3
+  od: 8.5
+  style: streams
+  style_votes:
+    tech: 35
+    streams: 289
+    jumps: 0
+  playcount: 4528161
+  available:
+    NM:
+      acc98: 82
+      acc95: 82
+    DT:
+      acc98: 1
+    HR:
+      acc98: 6
+    HD:
+      acc98: 15
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1796684
+  beatmapset_id: 859608
+  artist: LiSA
+  title: ADAMAS (TV Size)
+  version: Insane
+  mapper_id: 3230571
+  creator: Doormat
+  stars: 5.18
+  bpm: 191.0
+  drain_s: 88
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 20
+    jumps: 13
+  playcount: 2896461
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 5
+    HR:
+      acc98: 21
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1571863
+  beatmapset_id: 727908
+  artist: Knife Party & Tom Morello
+  title: Battle Sirens (RIOT Remix)
+  version: Extra
+  mapper_id: 2907237
+  creator: Marmowka
+  stars: 5.88
+  bpm: 174.0
+  drain_s: 119
+  cs: 4.0
+  ar: 9.3
+  od: 9.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 38
+    jumps: 0
+  playcount: 2766780
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 0
+    HR:
+      acc98: 23
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 869197
+  beatmapset_id: 399358
+  artist: KANA-BOON
+  title: Silhouette
+  version: Kage
+  mapper_id: 6203841
+  creator: Kagetsu
+  stars: 5.19
+  bpm: 183.0
+  drain_s: 87
+  cs: 4.0
+  ar: 9.3
+  od: 8.5
+  style: jumps
+  style_votes:
+    tech: 25
+    streams: 10
+    jumps: 120
+  playcount: 15942208
+  available:
+    NM:
+      acc98: 97
+      acc95: 97
+    DT:
+      acc98: 8
+    HR:
+      acc98: 5
+    HD:
+      acc98: 53
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 2201460
+  beatmapset_id: 1053509
+  artist: ViViD
+  title: HIKARI (TV Size)
+  version: browiec's Wisdom
+  mapper_id: 9426712
+  creator: Log Off Now
+  stars: 5.95
+  bpm: 210.0
+  drain_s: 87
+  cs: 4.0
+  ar: 9.4
+  od: 9.3
+  style: jumps
+  style_votes:
+    tech: 33
+    streams: 0
+    jumps: 253
+  playcount: 11047608
+  available:
+    NM:
+      acc98: 98
+      acc95: 98
+    DT:
+      acc98: 0
+    HR:
+      acc98: 9
+    HD:
+      acc98: 28
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1619555
+  beatmapset_id: 770300
+  artist: Aitsuki Nakuru
+  title: Monochrome Butterfly
+  version: Uniform
+  mapper_id: 4452992
+  creator: Sotarks
+  stars: 5.83
+  bpm: 175.0
+  drain_s: 86
+  cs: 3.8
+  ar: 9.3
+  od: 9.2
+  style: jumps
+  style_votes:
+    tech: 9
+    streams: 0
+    jumps: 236
+  playcount: 10463706
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 24
+    HR:
+      acc98: 4
+    HD:
+      acc98: 11
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1932649
+  beatmapset_id: 921889
+  artist: 'Fujiwara Chika (CV: Kohara Konomi)'
+  title: Chikatto Chika Chika (TV Size)
+  version: Hazu's Expert
+  mapper_id: 4668230
+  creator: Lami
+  stars: 5.0
+  bpm: 178.0
+  drain_s: 88
+  cs: 4.0
+  ar: 9.2
+  od: 8.5
+  style: jumps
+  style_votes:
+    tech: 34
+    streams: 0
+    jumps: 155
+  playcount: 8881065
+  available:
+    NM:
+      acc98: 59
+      acc95: 59
+    DT:
+      acc98: 9
+    HR:
+      acc98: 4
+    HD:
+      acc98: 7
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 2044368
+  beatmapset_id: 950289
+  artist: Oomori Seiko
+  title: JUSTadICE (TV Size)
+  version: Reform's Expert
+  mapper_id: 3723568
+  creator: Sotarks
+  stars: 5.03
+  bpm: 185.0
+  drain_s: 88
+  cs: 3.5
+  ar: 9.2
+  od: 8.7
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 130
+  playcount: 8006751
+  available:
+    NM:
+      acc98: 52
+      acc95: 52
+    DT:
+      acc98: 3
+    HR:
+      acc98: 2
+    HD:
+      acc98: 8
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1385396
+  beatmapset_id: 653534
+  artist: Panda Eyes
+  title: ILY
+  version: Fanteer's Expert
+  mapper_id: 7989641
+  creator: M a r v o l l o
+  stars: 5.2
+  bpm: 110.0
+  drain_s: 95
+  cs: 4.0
+  ar: 9.3
+  od: 8.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 208
+  playcount: 7628130
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 30
+    HR:
+      acc98: 8
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1257298
+  beatmapset_id: 594429
+  artist: Kenshi Yonezu
+  title: Peace Sign (TV edit.)
+  version: Plus Ultra
+  mapper_id: 2018960
+  creator: Finshie
+  stars: 5.56
+  bpm: 200.0
+  drain_s: 89
+  cs: 4.0
+  ar: 9.3
+  od: 8.5
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 57
+  playcount: 7377835
+  available:
+    NM:
+      acc98: 82
+      acc95: 82
+    DT:
+      acc98: 2
+    HR:
+      acc98: 28
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1810150
+  beatmapset_id: 865746
+  artist: the peggies
+  title: Kimi no Sei (TV Size)
+  version: Extra
+  mapper_id: 4452992
+  creator: Sotarks
+  stars: 5.44
+  bpm: 174.0
+  drain_s: 88
+  cs: 4.0
+  ar: 9.2
+  od: 9.0
+  style: jumps
+  style_votes:
+    tech: 4
+    streams: 0
+    jumps: 73
+  playcount: 5696100
+  available:
+    NM:
+      acc98: 36
+      acc95: 36
+    DT:
+      acc98: 35
+    HR:
+      acc98: 8
+    HD:
+      acc98: 18
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1897577
+  beatmapset_id: 906786
+  artist: Koda Kumi
+  title: Guess Who Is Back (TV Size)
+  version: Nevo's Expert
+  mapper_id: 7451883
+  creator: Sotarks
+  stars: 5.29
+  bpm: 183.0
+  drain_s: 76
+  cs: 3.8
+  ar: 9.3
+  od: 9.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 4
+    jumps: 46
+  playcount: 4107528
+  available:
+    NM:
+      acc98: 37
+      acc95: 37
+    DT:
+      acc98: 59
+    HR:
+      acc98: 6
+    HD:
+      acc98: 10
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 898575
+  beatmapset_id: 326920
+  artist: Seiryu
+  title: BLUE DRAGON
+  version: grumd's Extra
+  mapper_id: 530913
+  creator: Blue Dragon
+  stars: 5.96
+  bpm: 191.0
+  drain_s: 130
+  cs: 4.2
+  ar: 9.5
+  od: 8.2
+  style: jumps
+  style_votes:
+    tech: 34
+    streams: 75
+    jumps: 116
+  playcount: 3530118
+  available:
+    NM:
+      acc98: 97
+      acc95: 97
+    DT:
+      acc98: 0
+    HR:
+      acc98: 25
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 918723
+  beatmapset_id: 423527
+  artist: dj TAKA
+  title: quaver
+  version: Haru's Insane
+  mapper_id: 3772301
+  creator: Monstrata
+  stars: 5.19
+  bpm: 182.0
+  drain_s: 203
+  cs: 3.6
+  ar: 9.0
+  od: 8.0
+  circles: 507
+  sliders: 363
+  spinners: 3
+  playcount: 7589433
+  nm_usable: 66
+  style: spinners
+  split: train
+- beatmap_id: 345099
+  beatmapset_id: 134151
+  artist: Hanatan
+  title: Airman ga Taosenai (SOUND HOLIC Ver.)
+  version: Insane
+  mapper_id: 1953876
+  creator: Natsu
+  stars: 5.4
+  bpm: 175.0
+  drain_s: 216
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  circles: 573
+  sliders: 309
+  spinners: 3
+  playcount: 11461767
+  nm_usable: 61
+  style: spinners
+  split: train
+- beatmap_id: 992281
+  beatmapset_id: 462386
+  artist: Foreground Eclipse
+  title: From Under Cover (Caught Up In A Love Song)
+  version: Lunatic
+  mapper_id: 4830261
+  creator: Seni
+  stars: 5.11
+  bpm: 200.0
+  drain_s: 175
+  cs: 4.0
+  ar: 9.0
+  od: 7.5
+  circles: 359
+  sliders: 371
+  spinners: 4
+  playcount: 5515128
+  nm_usable: 99
+  style: spinners
+  split: train
+- beatmap_id: 2099567
+  beatmapset_id: 1002271
+  artist: Bliitzit
+  title: Team Magma & Aqua Leader Battle Theme (Unofficial)
+  version: Reform's Expert
+  mapper_id: 3723568
+  creator: Sotarks
+  stars: 5.11
+  bpm: 200.6
+  drain_s: 74
+  cs: 3.5
+  ar: 9.0
+  od: 9.0
+  circles: 120
+  sliders: 129
+  spinners: 3
+  playcount: 5690988
+  nm_usable: 38
+  style: spinners
+  split: train
+- beatmap_id: 198171
+  beatmapset_id: 68500
+  artist: LiSA
+  title: crossing field
+  version: Insane
+  mapper_id: 353821
+  creator: Ryafuka
+  stars: 5.23
+  bpm: 179.0
+  drain_s: 218
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  circles: 523
+  sliders: 328
+  spinners: 3
+  playcount: 4685730
+  nm_usable: 92
+  style: spinners
+  split: train
+- beatmap_id: 69405
+  beatmapset_id: 19789
+  artist: Hatsune Miku & Megpoid Gumi
+  title: MATRYOSHKA
+  version: Insane
+  mapper_id: 119404
+  creator: gowww
+  stars: 5.35
+  bpm: 205.0
+  drain_s: 166
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  circles: 411
+  sliders: 173
+  spinners: 7
+  playcount: 5197121
+  nm_usable: 51
+  style: spinners
+  split: train
+- beatmap_id: 1582621
+  beatmapset_id: 751785
+  artist: Cranky
+  title: Chandelier - King
+  version: Royal
+  mapper_id: 2204515
+  creator: Mao
+  stars: 5.89
+  bpm: 170.0
+  drain_s: 227
+  cs: 4.2
+  ar: 9.2
+  od: 8.2
+  circles: 813
+  sliders: 365
+  spinners: 3
+  playcount: 1109880
+  nm_usable: 99
+  style: spinners
+  split: train
+- beatmap_id: 979208
+  beatmapset_id: 413707
+  artist: Milkychan
+  title: Stronger Than You -Chara Response-
+  version: Voli's Extra
+  mapper_id: 2522275
+  creator: Cosmolade
+  stars: 5.03
+  bpm: 98.0
+  drain_s: 155
+  cs: 3.8
+  ar: 9.0
+  od: 8.5
+  circles: 185
+  sliders: 265
+  spinners: 4
+  playcount: 2873906
+  nm_usable: 22
+  style: spinners
+  split: train
+- beatmap_id: 93842
+  beatmapset_id: 28107
+  artist: DJ Fresh
+  title: Gold Dust
+  version: Insane
+  mapper_id: 381444
+  creator: galvenize
+  stars: 5.41
+  bpm: 177.0
+  drain_s: 175
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  circles: 446
+  sliders: 207
+  spinners: 3
+  playcount: 8021509
+  nm_usable: 94
+  style: spinners
+  split: train
+- beatmap_id: 1291657
+  beatmapset_id: 611956
+  artist: Cartoon
+  title: Why We Lose (ft. Coleman Trapp)
+  version: Broken
+  mapper_id: 7149815
+  creator: Plaudible
+  stars: 5.22
+  bpm: 175.0
+  drain_s: 112
+  cs: 4.0
+  ar: 9.0
+  od: 8.7
+  circles: 149
+  sliders: 206
+  spinners: 3
+  playcount: 3082536
+  nm_usable: 33
+  style: spinners
+  split: train
+- beatmap_id: 1571082
+  beatmapset_id: 732994
+  artist: Team.NEKOKAN
+  title: Airman ga Taosenai
+  version: Collab Extra
+  mapper_id: 7451883
+  creator: Sotarks
+  stars: 5.99
+  bpm: 200.0
+  drain_s: 208
+  cs: 3.8
+  ar: 9.4
+  od: 8.3
+  circles: 690
+  sliders: 364
+  spinners: 3
+  playcount: 1814229
+  nm_usable: 100
+  style: spinners
+  split: train
+- beatmap_id: 404440
+  beatmapset_id: 139525
+  artist: Lite Show Magic (t+pazolite vs C-Show)
+  title: Crack Traxxxx
+  version: Pantsu's Another
+  mapper_id: 1285234
+  creator: Fatfan Kolek
+  stars: 5.65
+  bpm: 220.0
+  drain_s: 107
+  cs: 4.0
+  ar: 9.2
+  od: 7.5
+  circles: 277
+  sliders: 245
+  spinners: 4
+  playcount: 1615682
+  nm_usable: 99
+  style: spinners
+  split: train

@@ -1,0 +1,21 @@
+# spinners maps, from configs/maps_spinners.yaml
+918723  # dj TAKA - quaver [Haru's Insane] 5.19*
+345099  # Hanatan - Airman ga Taosenai (SOUND HOLIC Ver.) [Insane] 5.4*
+128718  # S3RL - Pika Girl [Insane] 4.69*
+992281  # Foreground Eclipse - From Under Cover (Caught Up In A Love Song) [Lunatic] 5.11*
+761722  # Stonebank - The Pressure [Senhor's Insane] 4.66*
+2099567  # Bliitzit - Team Magma & Aqua Leader Battle Theme (Unofficial) [Reform's Expert] 5.11*
+614215  # JO*STARS ~TOMMY, Coda, JIN~ - JoJo Sono Chi no Kioku~end of THE WORLD~ [Insane] 4.86*
+198171  # LiSA - crossing field [Insane] 5.23*
+69405  # Hatsune Miku & Megpoid Gumi - MATRYOSHKA [Insane] 5.35*
+1582621  # Cranky - Chandelier - King [Royal] 5.89*
+979208  # Milkychan - Stronger Than You -Chara Response- [Voli's Extra] 5.03*
+186721  # ONE OK ROCK - Answer is Near [Insane] 4.6*
+943990  # NIGHTMARE - the WORLD  ~TV Size~ [Insane] 4.77*
+933875  # DECO*27 - Ghost Rule [N a s y a's Extra] 6.92*
+786867  # O2i3 - Ooi [Game Edit] [Extreme] 6.45*
+93842  # DJ Fresh - Gold Dust [Insane] 5.41*
+1291657  # Cartoon - Why We Lose (ft. Coleman Trapp) [Broken] 5.22*
+1571082  # Team.NEKOKAN - Airman ga Taosenai [Collab Extra] 5.99*
+404440  # Lite Show Magic (t+pazolite vs C-Show) - Crack Traxxxx [Pantsu's Another] 5.65*
+183511  # Aoi Eir - INNOCENCE (TV Size) [Nyquill's Insane] 4.84*

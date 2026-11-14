@@ -1,0 +1,481 @@
+# train, 4_star: see data/splits.py. Add maps, never move or remove one.
+meta:
+  split: train
+  band: 4_star
+  sources:
+  - configs/legacy/maps/maps_v1.yaml
+  - configs/legacy/maps/maps_spinners.yaml
+  updated: '2026-11-09'
+maps:
+- beatmap_id: 3013524
+  beatmapset_id: 1455997
+  artist: inabakumori
+  title: Lost Umbrella
+  version: kanor's Insane
+  mapper_id: 3131236
+  creator: Ryuusei Aika
+  stars: 4.73
+  bpm: 274.0
+  drain_s: 173
+  cs: 4.0
+  ar: 9.2
+  od: 8.0
+  style: tech
+  style_votes:
+    tech: 27
+    streams: 4
+    jumps: 0
+  playcount: 1052695
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 0
+    HR:
+      acc98: 1
+    HD:
+      acc98: 99
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 2145994
+  beatmapset_id: 1016347
+  artist: Silentroom
+  title: Protoflicker
+  version: Xenon's Insane
+  mapper_id: 4026817
+  creator: DeRandom Otaku
+  stars: 4.83
+  bpm: 140.0
+  drain_s: 164
+  cs: 3.9
+  ar: 9.0
+  od: 7.5
+  style: tech
+  style_votes:
+    tech: 31
+    streams: 2
+    jumps: 0
+  playcount: 637047
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 1
+    HR:
+      acc98: 45
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 4673320
+  beatmapset_id: 2165268
+  artist: Sasuke Haraguchi feat. Kasane Teto
+  title: Igaku
+  version: Crissa's Insane
+  mapper_id: 5405836
+  creator: Pyo
+  stars: 4.88
+  bpm: 170.0
+  drain_s: 115
+  cs: 4.0
+  ar: 9.0
+  od: 7.5
+  style: tech
+  style_votes:
+    tech: 106
+    streams: 0
+    jumps: 0
+  playcount: 251245
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 4
+    HR:
+      acc98: 6
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 5238581
+  beatmapset_id: 2412260
+  artist: Koto Spirit
+  title: Locus of Hexagram
+  version: Insane
+  mapper_id: 3621552
+  creator: Chaoslitz
+  stars: 4.72
+  bpm: 174.0
+  drain_s: 144
+  cs: 4.2
+  ar: 9.0
+  od: 7.0
+  style: tech
+  style_votes:
+    tech: 55
+    streams: 0
+    jumps: 0
+  playcount: 104887
+  available:
+    NM:
+      acc98: 97
+      acc95: 97
+    DT:
+      acc98: 8
+    HR:
+      acc98: 1
+    HD:
+      acc98: 58
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1033154
+  beatmapset_id: 482090
+  artist: 9mm Parabellum Bullet
+  title: Inferno
+  version: Agonizing Insane
+  mapper_id: 2706438
+  creator: Monstrata
+  stars: 4.89
+  bpm: 195.0
+  drain_s: 88
+  cs: 3.7
+  ar: 9.0
+  od: 8.5
+  style: streams
+  style_votes:
+    tech: 26
+    streams: 122
+    jumps: 58
+  playcount: 15494718
+  available:
+    NM:
+      acc98: 36
+      acc95: 36
+    DT:
+      acc98: 5
+    HR:
+      acc98: 2
+    HD:
+      acc98: 11
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 446612
+  beatmapset_id: 186318
+  artist: Warak
+  title: REANIMATE
+  version: N a s y a's Another
+  mapper_id: 1473106
+  creator: iyasine
+  stars: 4.53
+  bpm: 174.0
+  drain_s: 128
+  cs: 3.8
+  ar: 9.0
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 57
+    jumps: 20
+  playcount: 5157778
+  available:
+    NM:
+      acc98: 98
+      acc95: 98
+    DT:
+      acc98: 99
+    HR:
+      acc98: 6
+    HD:
+      acc98: 30
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1649990
+  beatmapset_id: 785858
+  artist: THE ORAL CIGARETTES
+  title: ReI
+  version: NiNo's Insane
+  mapper_id: 2506267
+  creator: Sotarks
+  stars: 4.84
+  bpm: 186.0
+  drain_s: 83
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 28
+    jumps: 4
+  playcount: 2332395
+  available:
+    NM:
+      acc98: 63
+      acc95: 63
+    DT:
+      acc98: 31
+    HR:
+      acc98: 5
+    HD:
+      acc98: 15
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 1863291
+  beatmapset_id: 891366
+  artist: HyuN
+  title: Illusion of Inflict
+  version: Kaliboy's Insane
+  mapper_id: 3376777
+  creator: schoolboy
+  stars: 4.86
+  bpm: 170.0
+  drain_s: 113
+  cs: 4.0
+  ar: 9.0
+  od: 7.5
+  style: streams
+  style_votes:
+    tech: 3
+    streams: 31
+    jumps: 0
+  playcount: 1531674
+  available:
+    NM:
+      acc98: 100
+      acc95: 100
+    DT:
+      acc98: 10
+    HR:
+      acc98: 8
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 1625592
+  beatmapset_id: 773330
+  artist: Nanamori-chu * Goraku-bu
+  title: Happy Time wa Owaranai
+  version: Shiinoha's Insane
+  mapper_id: 5712451
+  creator: eiri-
+  stars: 4.87
+  bpm: 190.0
+  drain_s: 124
+  cs: 3.8
+  ar: 9.0
+  od: 7.0
+  style: streams
+  style_votes:
+    tech: 0
+    streams: 33
+    jumps: 16
+  playcount: 953955
+  available:
+    NM:
+      acc98: 41
+      acc95: 41
+    DT:
+      acc98: 91
+    HR:
+      acc98: 9
+    HD:
+      acc98: 100
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 2090844
+  beatmapset_id: 999645
+  artist: Mrs. GREEN APPLE
+  title: Inferno (TV Size)
+  version: Fire Force
+  mapper_id: 11480447
+  creator: Amandia
+  stars: 4.87
+  bpm: 185.0
+  drain_s: 89
+  cs: 4.0
+  ar: 9.3
+  od: 8.5
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 229
+  playcount: 11049678
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 5
+    HR:
+      acc98: 9
+    HD:
+      acc98: 43
+  relaxation: 0
+  split: train
+  pilot: true
+- beatmap_id: 962800
+  beatmapset_id: 444335
+  artist: HO-KAGO TEA TIME
+  title: Kira Kira Days
+  version: Mamayu's Insane!!
+  mapper_id: 5069490
+  creator: Kagetsu
+  stars: 4.72
+  bpm: 200.0
+  drain_s: 89
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  style: jumps
+  style_votes:
+    tech: 0
+    streams: 0
+    jumps: 63
+  playcount: 10224691
+  available:
+    NM:
+      acc98: 99
+      acc95: 99
+    DT:
+      acc98: 13
+    HR:
+      acc98: 7
+    HD:
+      acc98: 10
+  relaxation: 0
+  split: train
+  pilot: false
+- beatmap_id: 128718
+  beatmapset_id: 40440
+  artist: S3RL
+  title: Pika Girl
+  version: Insane
+  mapper_id: 342372
+  creator: Takuya
+  stars: 4.69
+  bpm: 175.0
+  drain_s: 189
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  circles: 416
+  sliders: 220
+  spinners: 8
+  playcount: 9092422
+  nm_usable: 97
+  style: spinners
+  split: train
+- beatmap_id: 761722
+  beatmapset_id: 325307
+  artist: Stonebank
+  title: The Pressure
+  version: Senhor's Insane
+  mapper_id: 3860376
+  creator: Asserin
+  stars: 4.66
+  bpm: 170.0
+  drain_s: 80
+  cs: 4.2
+  ar: 9.0
+  od: 8.0
+  circles: 135
+  sliders: 142
+  spinners: 3
+  playcount: 5012941
+  nm_usable: 11
+  style: spinners
+  split: train
+- beatmap_id: 614215
+  beatmapset_id: 269969
+  artist: JO*STARS ~TOMMY, Coda, JIN~
+  title: JoJo Sono Chi no Kioku~end of THE WORLD~
+  version: Insane
+  mapper_id: 2279351
+  creator: Atsuro
+  stars: 4.86
+  bpm: 220.0
+  drain_s: 76
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  circles: 111
+  sliders: 141
+  spinners: 3
+  playcount: 3561435
+  nm_usable: 14
+  style: spinners
+  split: train
+- beatmap_id: 186721
+  beatmapset_id: 63112
+  artist: ONE OK ROCK
+  title: Answer is Near
+  version: Insane
+  mapper_id: 870067
+  creator: Kuria
+  stars: 4.6
+  bpm: 188.0
+  drain_s: 178
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  circles: 260
+  sliders: 240
+  spinners: 7
+  playcount: 6501671
+  nm_usable: 99
+  style: spinners
+  split: train
+- beatmap_id: 943990
+  beatmapset_id: 438535
+  artist: NIGHTMARE
+  title: the WORLD  ~TV Size~
+  version: Insane
+  mapper_id: 243049
+  creator: smallboat
+  stars: 4.77
+  bpm: 190.0
+  drain_s: 77
+  cs: 4.0
+  ar: 9.0
+  od: 8.0
+  circles: 186
+  sliders: 130
+  spinners: 3
+  playcount: 2397421
+  nm_usable: 100
+  style: spinners
+  split: train
+- beatmap_id: 183511
+  beatmapset_id: 61447
+  artist: Aoi Eir
+  title: INNOCENCE (TV Size)
+  version: Nyquill's Insane
+  mapper_id: 682935
+  creator: Weez
+  stars: 4.84
+  bpm: 183.0
+  drain_s: 85
+  cs: 4.0
+  ar: 9.0
+  od: 7.0
+  circles: 190
+  sliders: 117
+  spinners: 3
+  playcount: 2797888
+  nm_usable: 81
+  style: spinners
+  split: train

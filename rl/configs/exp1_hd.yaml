@@ -1,0 +1,37 @@
+# Experiment 1, condition B: PPO on HD, no HD demonstrations. python -m rl.ppo --config rl/configs/exp1_hd.yaml --seed 0
+name: exp1_B
+bc_checkpoint: runs/baseline_cap_seed0/best.pt   # the BC policy (NoMod + HR replays, selected on NoMod val under the cap)
+mods: HD
+train_maps: train_split          # the BC training maps, rendered with HD
+curve_maps: heldout              # learning curve only (never selected on): rl/maps.yaml
+curve_mods: [HD]
+eval_every_steps: 250000
+total_steps: 2000000
+
+# environment
+n_envs: 16
+rollout_steps: 128               # 2,048 agent steps per update
+segment_frames: 900              # 15 s of game time per segment
+
+# policy noise: rl/calibrate.py on 6 train maps, 8 px + 0.5 costs 1.1 pp vs deterministic (the experiment log)
+aim_std_px: 8.0
+key_std: 0.5
+
+# PPO (the brief's starting values; tuned on training maps only)
+actor_lr: 2.0e-5
+critic_lr: 1.0e-4
+clip: 0.1
+target_kl: 0.01
+gamma: 0.989                     # effective horizon 1 / (1 - gamma) = 90 frames = 1.5 s
+gae_lambda: 0.95
+kl_coef: 0.1                     # KL to BC, decayed linearly to 0 over kl_decay_frac of training
+kl_decay_frac: 1.0
+epochs: 4
+minibatch: 256
+max_grad_norm: 0.5
+
+# critic warm-up (policy frozen) until explained variance stops improving
+warmup_max_iters: 30
+warmup_patience: 3
+warmup_min_gain: 0.01
+log_every: 5

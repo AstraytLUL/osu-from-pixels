@@ -1,0 +1,19 @@
+# test maps added by data/find_test_maps.py (7*+: NM)
+1402392  # jumps: Yousei Teikoku - Hades: The rise [Hardest] 7.58*
+977770  # jumps: Kano - Yuudachi no Ribbon [Extreme] 7.21*
+1245365  # streams: xi - Glorious Crown [NiNo's Extra] 7.33*
+1377957  # streams: EPICA - Victims of Contingency [Remorse] 7.93*
+2507884  # tech: meganeko - Feral (osu! edit) [Veracious] 7.62*
+4529671  # tech: DECO*27 - Rabbit Hole feat. Hatsune Miku [*****] 7.96*
+4967007  # jumps: Arash - Temptation (feat. Rebecca) (Nightcore Mix) [Tylerderp's Extreme] 8.04*
+4952940  # jumps: Mrs. GREEN APPLE - Ao to Natsu (katagiri Bootleg) (Sped Up Ver.) [Ultra] 8.0*
+2654458  # streams: UNDEAD CORPORATION - Frozen [Everything Will Freeze] 8.11*
+4203275  # streams: Zektbach - L'erisia (Primary Logic) [Ristaccia] 8.38*
+1785659  # tech: YURRY CANON - Suicide Parade [Sakase] 8.39*
+4377326  # tech: tn-shi - Synthesis. [.Terminus ()] 8.03*
+4669413  # jumps: Green Day - Bang Bang [Class of '09] 9.23*
+4235907  # jumps: Camellia feat. Nanahira - Kizuitara Shunkashuutou (Cut Ver.) [Akitoshi's Cataclysm] 9.03*
+4904540  # streams: xi - FREEDOM DiVE [Arles] 9.68*
+4798513  # streams: Raimukun - Icyxis [~Divine Intervention~] 9.47*
+4618179  # jumps: kessoku band - Guitar to Kodoku to Aoi Hoshi (Hayakou Bootleg) [Showtime!] 9.99*
+3100786  # jumps: Utsu-P feat. Sekihan - Nurikabe [Kegare] 9.48*
